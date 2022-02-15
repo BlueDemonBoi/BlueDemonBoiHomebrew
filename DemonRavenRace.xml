@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Raven Demon" type="Race" source="Homebrew" id="ID_HOMEBREW_RAVEN_DEMON">
+    <description>
+      <p>A Race of magical Ravens that gained the ability to Shape Shift into different races.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
+    </description>
+    <rules>
+      <stat name="strength" value="2" />
+      <grant type="Form Shift" id="id_ravendemon_formshift" level="1" />    
+    </rules>
+  </element>
+
+</elements>
